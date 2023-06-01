@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  background: url("./assets/Rectangle 15.svg");
+}
+
+.exo-logo {
+  background: url("./assets/exo.png");
+}
+
+.petal-logo {
+  background: url("./assets/petals 1.png");
+  background-size: 100%;
+}
+
+::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #495161 !important;
+  opacity: 0.5 !important;
+}
